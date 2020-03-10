@@ -13,7 +13,7 @@ int main(){
    }
    
    cin >> n;
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; ++){
        cin >> a >> b;
        if (a == 'S') cards[0][b] = true;
        if (a == 'H') cards[1][b] = true;
